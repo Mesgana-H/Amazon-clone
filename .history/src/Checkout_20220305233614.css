@@ -1,0 +1,52 @@
+body {
+	background-color: #eaeded;
+}
+.checkout {
+	margin-top: 15px;
+	background: #fff;
+	overflow: hidden;
+	min-width: 600px;
+	border: 1px solid #c9e1f4;
+	border-radius: 7.5px;
+	padding-top: 10px;
+	padding-left: 10px;
+	text-align: center;
+	display: inline-flex;
+	Height: 200px;
+}
+.checkout__ad {
+	padding-top: 20px;
+	width: 250px;
+	margin-bottom: 10px;
+}
+.checkout__left {
+	display: flex;
+}
+.checkout_summary {
+	margin-left: 100px;
+	text-align: left !important;
+	width: 45%;
+	/* margin-left: 20px; */
+}
+.checkout_summary > p {
+	line-height: 1px;
+}
+.checkout__greeting {
+}
+.checkout__gift {
+	color: rgb(52, 92, 177);
+}
+.checkout__prime {
+	font-size: 18px;
+	font-weight: 600 !important;
+}
+.checkout__apply_btn {
+	/* align-self: center; */
+	width: 100px;
+	margin-right: 200px;
+	margin-top: 80px;
+}
+.checkout__apply {
+	width: 20%;
+	/* align-items: center !important; */
+}

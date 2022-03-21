@@ -1,0 +1,11 @@
+.checkout {
+	border-color: rgb(175, 175, 223);
+}
+.checkout__ad {
+	width: 100%;
+	max-width: 200px;
+	margin-bottom: 10px;
+}
+.checkout__left {
+	display: flex;
+}

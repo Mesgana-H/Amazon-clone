@@ -1,0 +1,26 @@
+import React from 'react';
+import './CheckoutProduct.css';
+
+function CheckoutProduct(props) {
+	return (
+		<div className="checkoutProduct">
+			<img
+				className="checkoutProduct__image"
+				src="https://m.media-amazon.com/images/I/41UILzPeHGL._AC_UL640_FMwebp_QL65_.jpg"
+				alt="product img"
+			/>
+			<div className="checkoutProduct__info">
+				<p className="checkoutProduct__title">title</p>
+				<p className="checkoutProduct__price">
+					<small>$</small>
+					<strong>price</strong>
+				</p>
+				<div className="checkoutProduct__rating">{Array(5).fill().map((_, i) => <p>🌟</p>)}</div>
+				<button>Remove from Basket</button>
+				{/* {!hideButton && <button onClick={removeFromBasket}>Remove from Basket</button>} */}
+			</div>
+		</div>
+	);
+}
+
+export default CheckoutProduct;
